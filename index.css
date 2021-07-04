@@ -12,18 +12,23 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexibale-container{
     
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+    
     display: flex;
-    padding: 0 15px;
+    padding: 0  10px 0;
     margin-bottom: 150px;
     
 }
+.background{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
 .half-width{
     width: 50%;
-    margin-right: 10%;
+    margin: 2%;
+    
 }
 .half-width img{
     width: 100%;
@@ -64,6 +69,43 @@ section{
 p{
     text-align: justify;
 }
+.Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: left bottom;
+    background-size:80px;
+
+    
+}
 .resume:hover{
     background-image: linear-gradient(#564,#093);
+}
+.first{
+    border-left: 4px solid #093;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 2%;
+    
+}
+
+.second{
+    padding: 10px;
+    border-left: 4px solid #056;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    border-radius: 2%;
+}
+
+.ex{
+    text-align: center;
+    text-transform: uppercase;
+    color: #093;
+    
+}
+.footer small{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    color: #333;
 }
