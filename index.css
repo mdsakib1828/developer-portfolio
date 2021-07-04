@@ -17,15 +17,17 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     display: flex;
-    padding: 5%;
+    padding: 0 15px;
+    margin-bottom: 150px;
     
 }
 .half-width{
     width: 50%;
+    margin-right: 10%;
 }
 .half-width img{
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
+    
 }
 .hire{
     background-color: orangered;
@@ -40,4 +42,28 @@ section{
 .hire:hover{
     background-image: linear-gradient(yellow,green);
     color:red;
+}
+/*---- Dream big section--*/
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.resume{
+     background-color: orangered;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(#000,#727272);
+    text-transform: uppercase;
+
+}
+p{
+    text-align: justify;
+}
+.resume:hover{
+    background-image: linear-gradient(#564,#093);
 }
